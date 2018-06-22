@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <zk xmlns="http://www.zkoss.org/2005/zul">
-    <window mode="modal"  closable="true" width="80%" id="winmodal" apply="controller.index2Composer">
+    <window mode="modal"  closable="true" width="80%" id="winmodal" apply="controller.index2Composer" border="normal">
         ini adalah tampilan window modal
        
         
