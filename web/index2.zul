@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<zk xmlns="http://www.zkoss.org/2005/zul">
+    <window mode="modal"  closable="true" width="80%" id="winmodal" apply="controller.index2Composer">
+        ini adalah tampilan window modal
+       
+        
+        <listbox id="box" multiple="true" checkmark="true" >
+		<listhead >
+			<listheader label="Name"/>
+			<listheader label="Gender"/>
+			<listheader label="Age"/>
+			<listheader label="Description"/>
+		</listhead>
+		<listitem>
+			<listcell label="Mary"/>
+			<listcell label="FEMALE"/>
+			<listcell label="18"/>
+			<listcell label="A young lady."/>
+		</listitem>
+		<listitem>
+			<listcell label="John"/>
+			<listcell label="MALE"/>
+			<listcell label="20"/>
+			<listcell label="A college student."/>
+		</listitem>
+		
+	</listbox>	
+        <button id ="btnClose"
+        label="Tutup" />
+        
+    </window>
+</zk>
